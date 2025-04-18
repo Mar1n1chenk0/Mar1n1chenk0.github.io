@@ -1,0 +1,91 @@
+table, th, td {
+    border:3px solid black; 
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+
+
+}
+
+    table {border-radius: 15px;
+    background-color: bisque;
+    margin: auto;
+    
+    }
+    p.header {color: burlywood;
+        font-weight: bold;
+        font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+    p.header::first-letter {
+        font-size: 2em;
+        color: burlywood;
+        font-weight: bold;
+    }
+
+    td:nth-of-type(1){
+    background-color: lightblue; }
+ 
+    /*Scorecard N2, style starts here:*/
+
+    p.header2 {color: lightslategray;
+        font-weight: bold;
+        font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+p.header2::first-letter {
+    font-size: 2em;
+    color: lightslategray;
+    font-weight: bold;
+}
+table.boxing, th.boxing, td.boxing {
+    border:3px solid black; 
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(192, 235, 252);
+
+
+}
+
+    table.boxing {border-radius: 15px;
+    background-color: lightgrey;
+    margin: auto;
+     
+    } 
+    td.boxing:nth-of-type(1){
+        background-color: rgb(123, 255, 176); }
+
+/*Scorecard N3, style starts here:*/
+
+p.header3 {color: rgb(156, 156, 156);
+    font-weight: bold;
+    font-size: 25px;
+justify-content: center;
+text-align: center;
+}
+
+p.header3::first-letter {
+font-size: 2em;
+color: rgb(156, 156, 156);
+font-weight: bold;
+}
+table.hockey, th.hockey, td.hockey {
+border:3px solid black; 
+text-align: center;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+
+
+}
+
+table.hockey {border-radius: 15px;
+background-color: rgb(208, 243, 245);
+margin: auto;
+ 
+} 
+td.hockey:nth-of-type(1){
+    background-color: rgb(244, 104, 104); }
