@@ -1,0 +1,35 @@
+div{background-color: rgb(136, 121, 104);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+
+p{
+    font-weight: 300;
+    font-size: 35px;
+    color: #000000;
+    margin: 20px;}
+   
+
+.Image {
+    width: 500px;
+    margin: 15px;
+    display: block;
+}
+
+li{ 
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+iframe{
+    margin : 70px;
+}
+
