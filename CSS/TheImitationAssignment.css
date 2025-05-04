@@ -1,0 +1,41 @@
+#butterfly{
+border-radius: 90px 0px 90px 0px;}
+img#butterfly{filter: invert(0.90);}
+
+#penguins{ border-radius: 100%;
+border: solid 1px #000;}
+img#penguins{ filter: sepia(.8);}
+
+img#dinosaur{filter: drop-shadow(10px 0px 4px #000) hue-rotate(90deg);}
+
+img#seagull { background: linear-gradient(to top left, white, rgb(202, 193, 254), rgb(104, 104, 254)); filter: drop-shadow(2px 8px 7px #434343);}
+
+#theater_stage {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theater_stage img {
+    filter: blur(6px);
+    display: block; 
+}
+
+#theater_stage h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px #000;
+    font-size: 55px;
+    position: absolute;
+}
+
+.tic { 
+    border: 40px solid transparent;
+    padding: 0px; 
+    border-image-source: url(../Images/images-assignment/tic-tac-toe.png);
+    border-image-repeat: round; 
+    border-image-slice: 46.49;
+    border-image-width: 43.4px; 
+    width: 500px;
+    filter: grayscale(100%);
+}
