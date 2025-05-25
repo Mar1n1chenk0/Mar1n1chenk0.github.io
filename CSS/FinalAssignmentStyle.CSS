@@ -286,5 +286,16 @@ figcaption{
 
 }
 
+@media screen and (max-width: 600px) {
+    .navigation-bar nav {
+        display: flex;
+
+    }
+    .navigation-bar nav a {
+        margin: 0 5px;
+        white-space: nowrap;
+    }
+}
+
 
 
